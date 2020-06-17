@@ -1,0 +1,45 @@
+*  {border: solid;  
+    border-color:#00FFFF;   }
+    a{font-style: italic;}
+    *{ background-image: url('Images/bkgG.jpg' ) ;}
+    
+    
+    .header{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #0000FF;
+        text-align: center;
+    }
+    
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    
+    body{
+       
+        width:displayWidth;
+        height:displayHeight;
+        background-color: #FF00FF;
+    }
+    
+    .info{
+        color: #FFFA00;
+    }
+    .item img{
+       display: flex;
+       justify-content: right;
+      margin-left:500px ;
+    }
+    .item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-60%,-60%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
